@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandra's Homework</title>
+  <link rel="stylesheet" href="src/style.css" />
+  <script src="https://kit.fontawesome.com/427f50444b.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="weather-app">
+      <form class="search-form">
+        <div class="row">
+          <div class="col-9">
+            <input 
+            type="search" 
+            placeholder="Enter city name..." 
+            class="form-control shadow-sm"
+            autofocus="on"
+            autocomplete="off"
+            id="enter-city"
+             />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="form-control btn btn-primary" id="submit-button"/>
+          </div>
+          </div>
+
+      </form>
+
+      <br />
+      <h1 id="current-city">
+        ZÜRICH
+      </h1>
+      <h4>
+        Friday, 21:54
+      </h4>
+      <p id="current-weather">
+        Clear sky with a chance to see shooting stars
+      </p>
+      <h2> <span id="current-temp">18</span> ° C </h2>
+      <br />
+      <div class="container1">
+        <div class="row">
+          <div class="col-sm">
+            Saturday
+          </div>
+          <div class="col-sm">
+            Sunday
+          </div>
+          <div class="col-sm">
+            Monday
+          </div>
+          <div class="col-sm">
+            Tuesday
+          </div>
+          <div class="col-sm">
+            Wednesday
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container2">
+        <div class="row">
+          <div class="col-sm">
+            <i class="fas fa-cloud"> </i>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-meteor"></i>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-cloud-rain"></i>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-cloud-meatball"></i>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-sun"></i>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container3">
+        <div class="row">
+          <div class="col-sm">
+            22°C
+          </div>
+          <div class="col-sm">
+            25°C
+          </div>
+          <div class="col-sm">
+            27°C
+          </div>
+          <div class="col-sm">
+            29°C
+          </div>
+          <div class="col-sm">
+            31°C
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js">
+    </script>
+</body>
+
+</html>
